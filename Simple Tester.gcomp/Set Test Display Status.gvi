@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9E60188E7F079CCA9165871FCAD0A4D3" Timestamp="1D3C11E357BE8D8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.0.41664" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.0.41664" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.0.41664" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.0.41664" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.0.41664" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.0.41664" Name="LabVIEW NXG" Version="2.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Set Test Display Status" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="17" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 65" Parameter="67" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 80" Parameter="72" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 50" Parameter="28" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<ArrayViewer ArrayElement="[UIModel]30" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]448" Id="29" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]38" Left="[float]324" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]0" Top="[float]36" Value="{DataItemBinding Id=28}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]634" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>
+					<Cluster>
+						<Field1>""</Field1>
+						<Field2>0</Field2>
+						<Field3>0x0</Field3>
+					</Cluster>
+				</p.DefaultElementValue>
+				<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@d6dcebecce8042caabe13836507cb8b3" Height="[float]49" Id="30" IsTabStop="[bool]True" Label="[UIModel]37" TabIndex="[int]0" Width="[float]602" p5:ControlDefinitionChecksum="0a5LXlsB3cskeXImXdnQZg==" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype:ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="632" IsReadOnly="[bool]True" Label="[UIModel]633" Left="[float]4" MinHeight="[float]33" TabIndex="[int]0" Text="{ClusterBinding FieldName=Name}" Top="[float]4" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]371" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="638" xmlns="http://www.ni.com/PlatformFramework" />
+					</StringControl>
+					<p5:Label Id="633" LabelOwner="[UIModel]632" Left="[float]4" Text="[string]Name" Top="[float]-16" Visible="[bool]False" />
+					<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Height="[float]33" Id="634" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]635" Left="[float]518" MinHeight="[float]33" TabIndex="[int]2" TextAlignment="[TextAlignment]Center" Top="[float]4" UnitAnnotation="[string]ms" Value="{ClusterBinding FieldName=Duration}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="639" xmlns="http://www.ni.com/PlatformFramework" />
+					</NumericText>
+					<p5:Label Id="635" LabelOwner="[UIModel]634" Left="[float]518" Text="[string]Duration" Top="[float]-16" Visible="[bool]False" />
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]33" Id="636" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]637" Left="[float]383" MinHeight="[float]33" TabIndex="[int]1" TextAlignment="[TextAlignment]Center" Top="[float]4" Value="{ClusterBinding FieldName=Status}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]127" p5:ControlDefinitionChecksum="zoz0zcfjyvdbHRhaagkFbw==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p5:p.TypeDefinitionTargets>
+							<p5:TypeDefinitionTarget TargetName="Simple\ Tester:Test\ Status\.gtype:ControlDefinition" />
+						</p5:p.TypeDefinitionTargets>
+						<EnumSelectorInfo DisplayValue="[string]Disabled" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Scheduled" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Running" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Passed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Failed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="640" xmlns="http://www.ni.com/PlatformFramework" />
+					</EnumSelector>
+					<p5:Label Id="637" LabelOwner="[UIModel]636" Left="[float]383" Text="[string]Status" Top="[float]-16" Visible="[bool]False" />
+					<p5:Label Height="[float]16" Id="37" IsVisualChild="[bool]False" LabelOwner="[UIModel]30" Left="[float]0" Text="[string]Cluster" Top="[float]-20" Width="[float]37" />
+				</Cluster>
+			</ArrayViewer>
+			<Label Foreground="[SMColor]#ff2b3033" Id="38" LabelOwner="[UIModel]29" Left="[float]324" Text="[string]Tests Out" Top="[float]16" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="68" IsReadOnly="[bool]False" Left="[float]0" MinHeight="[float]24" Name="[string]Name" TabIndex="[int]1" Text="{DataItemBinding Id=67}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]33" Id="73" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]370" Left="[float]233" MinHeight="[float]33" TabIndex="[int]2" TextAlignment="[TextAlignment]Center" Top="[float]172" Value="{DataItemBinding Id=72}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]127" p4:ControlDefinitionChecksum="zoz0zcfjyvdbHRhaagkFbw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Simple\ Tester:Test\ Status\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<EnumSelectorInfo DisplayValue="[string]Disabled" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Scheduled" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Running" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Passed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Failed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="439" xmlns="http://www.ni.com/PlatformFramework" />
+			</EnumSelector>
+			<Label Id="370" LabelOwner="[UIModel]73" Left="[float]233" Text="[string]Status" Top="[float]152" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="145 235 40 15" DataItem="17" Id="15" Label="16" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@e6dd4dcfe5494104a3ec740e199f2432" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="15" Bounds="110 235 30 14" Id="16" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Tests</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="815 185 40 15" DataItem="28" Id="40" Label="41" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@e6dd4dcfe5494104a3ec740e199f2432" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="40" Bounds="860 185 53 14" Id="41" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Tests Out</p.Text>
+			</NodeLabel>
+			<ForLoop Bounds="208 128 595 205" DiagramId="44" Id="43">
+				<LoopIteration Bounds="130 75 15 15" Id="46" />
+				<LoopCondition Bounds="565 175 15 15" Id="49" />
+				<IsEqual Bounds="145 115 30 30" Id="50" />
+				<PropertyNode Bounds="35 105 67 35" HasErrorTerminals="False" Id="51" InstanceDataType="@d6dcebecce8042caabe13836507cb8b3" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+						<TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype" />
+					</p.TypeDefinitionTargets>
+					<PropertyItemTerminal DataType="String" Hotspot="67 15" Id="c0t0v" Path="Name" PathElementMemberKinds="Field" Usage="Optional" />
+				</PropertyNode>
+				<Wire Id="52" Joints="N(48:i0)|(6,110) N(51:instance in)|(35,110)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="53" Joints="N(51:c0t0v)|(102,120) N(50:x)|(145,120)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="59" Joints="N(56:i0)|(6,60) N(336:91)|(206,60)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="63" Joints="N(46:Output)|(145,80) N(339:91)|(206,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="65" Joints="N(342:91)|(534,60) N(55:44)|(583,60)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="81" Joints="N(82:i0)|(6,180) h(179) v(-90) N(345:91)|(206,90)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="86" Joints="N(85:i0)|(6,150) h(132) v(-15) N(50:y)|(145,135)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="210 15 320 150" Default="92" Id="91" Selected="93" UserSelectorBounds="116 0 88 17">
+					<CaseStructure.Case Bounds="5 5 310 140" Id="92" Pattern="False">
+						<Wire Id="347" Joints="N(336:92)|(4,40) N(342:92)|(306,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 310 140" Id="93" Pattern="True">
+						<InPlaceElementStructure Bounds="32 15 260 110" DiagramId="58" Id="57">
+							<PropertyNode Bounds="55 35 74 35" HasErrorTerminals="False" Id="77" InstanceDataType="@d6dcebecce8042caabe13836507cb8b3" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+								<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+									<TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype" />
+									<TypeDefinitionTarget TargetName="Simple\ Tester:Test\ Status\.gtype" />
+								</p.TypeDefinitionTargets>
+								<PropertyItemTerminal Action="Write" DataType="@0c6458c61a054c65917ec44161d7db1f" Hotspot="0 15" Id="c0t0v" Path="Status" PathElementMemberKinds="Field" Usage="Required" />
+							</PropertyNode>
+							<Wire Id="78" Joints="N(62:c0out)|(0,40) N(77:instance in)|(55,40)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="79" Joints="N(80:58)|(0,50) N(77:c0t0v)|(55,50)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="348" Joints="N(77:instance out)|(129,40) N(61:c0in)|(184,40)" xmlns="http://www.ni.com/PlatformFramework" />
+							<InPlaceElementStructure.ArrayIndexReplaceWritePoser Bounds="222 20 40 30" Docking="Right" Id="61" Terminals="array=341, c0t0v, c0in=348" />
+							<InPlaceElementStructure.ArrayIndexReplaceReadPoser Bounds="-2 20 40 30" Docking="Left" Id="62" Terminals="array=335, c0t0v=338, c0out=78" WritePoser="61" />
+							<InPlaceTunnel.Tunnel Bounds="-2 50 40 10" Docking="Left" Id="80" Terminals="57=344, 58=79" />
+						</InPlaceElementStructure>
+						<Wire Id="335" Joints="N(336:93)|(4,40) N(62:array)|(30,40)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="338" Joints="N(339:93)|(4,60) N(62:c0t0v)|(30,60)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="341" Joints="N(61:array)|(294,40) N(342:93)|(306,40)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="344" Joints="N(345:93)|(4,70) N(80:57)|(30,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 110 13 10" Docking="Left" Id="94" Terminals="91=367, 92, 93" />
+					<CaseStructure.Tunnel Bounds="-4 40 13 10" Docking="Left" Id="336" Terminals="91=59, 92=347, 93=335" />
+					<CaseStructure.Tunnel Bounds="-4 60 13 10" Docking="Left" Id="339" Terminals="91=63, 92, 93=338" />
+					<CaseStructure.Tunnel Bounds="311 40 13 10" Docking="Right" Id="342" Terminals="91=65, 92=347, 93=341" />
+					<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="345" Terminals="91=81, 92, 93=344" />
+				</CaseStructure>
+				<Wire Id="367" Joints="N(50:x = y?)|(175,130) h(15) B(1) N(94:91)|(206,130) B(1) v(50) N(49:Input)|(565,180)" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="45" Terminals="43, 44" />
+				<LoopTunnel AutoIndex="True" Bounds="-5 107 13 10" Docking="Left" Id="48" Terminals="o0=47, i0=52" TunnelMode="0" />
+				<RightShiftRegister Bounds="585 57 13 10" Docking="Right" Id="55" Terminals="43=66, 44=65" />
+				<LeftShiftRegister Bounds="-5 57 13 10" Docking="Left" Id="56" RightRegister="55" Terminals="o0=47, i0=59" />
+				<LoopTunnel Bounds="-5 177 13 10" Docking="Left" Id="82" Terminals="o0=83, i0=81" />
+				<LoopTunnel Bounds="-5 147 13 10" Docking="Left" Id="85" Terminals="o0=84, i0=86" />
+			</ForLoop>
+			<Wire Id="47" Joints="N(15:Value)|(185,240) h(10) B(1) N(48:o0)|(203,240) B(1) v(-50) N(56:o0)|(203,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="66" Joints="N(55:43)|(806,190) N(40:Value)|(818,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="140 275 40 15" DataItem="67" Id="70" Label="71" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="70" Bounds="102 275 33 14" Id="71" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Name</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="145 305 40 15" DataItem="72" Id="75" Label="76" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@0c6458c61a054c65917ec44161d7db1f" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="75" Bounds="104 305 36 14" Id="76" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Status</p.Text>
+			</NodeLabel>
+			<Wire Id="83" Joints="N(75:Value)|(185,310) N(82:o0)|(203,310)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="84" Joints="N(70:Value)|(180,280) N(85:o0)|(203,280)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="14" />
+			<ArrayViewer ArrayElement="[UIModel]19" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]538" Id="18" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]27" Left="[float]100" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=17}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]634" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>
+					<Cluster>
+						<Field1>""</Field1>
+						<Field2>0</Field2>
+						<Field3>0x0</Field3>
+					</Cluster>
+				</p.DefaultElementValue>
+				<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@d6dcebecce8042caabe13836507cb8b3" Height="[float]49" Id="19" IsTabStop="[bool]True" Label="[UIModel]26" TabIndex="[int]0" Width="[float]602" p5:ControlDefinitionChecksum="0a5LXlsB3cskeXImXdnQZg==" xmlns:p5="http://www.ni.com/PanelCommon">
+					<p5:p.TypeDefinitionTargets>
+						<p5:TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype:ControlDefinition" />
+					</p5:p.TypeDefinitionTargets>
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]33" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="620" IsReadOnly="[bool]False" Label="[UIModel]621" Left="[float]4" MinHeight="[float]33" TabIndex="[int]0" Text="{ClusterBinding FieldName=Name}" Top="[float]4" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]371" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="626" xmlns="http://www.ni.com/PlatformFramework" />
+					</StringControl>
+					<p5:Label Id="621" LabelOwner="[UIModel]620" Left="[float]4" Text="[string]Name" Top="[float]-16" Visible="[bool]False" />
+					<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Height="[float]33" Id="622" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, TextInput" IsReadOnly="[bool]False" Label="[UIModel]623" Left="[float]518" MinHeight="[float]33" TabIndex="[int]2" TextAlignment="[TextAlignment]Center" Top="[float]4" UnitAnnotation="[string]ms" Value="{ClusterBinding FieldName=Duration}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="627" xmlns="http://www.ni.com/PlatformFramework" />
+					</NumericText>
+					<p5:Label Id="623" LabelOwner="[UIModel]622" Left="[float]518" Text="[string]Duration" Top="[float]-16" Visible="[bool]False" />
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]33" Id="624" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]625" Left="[float]383" MinHeight="[float]33" TabIndex="[int]1" TextAlignment="[TextAlignment]Center" Top="[float]4" Value="{ClusterBinding FieldName=Status}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]127" p5:ControlDefinitionChecksum="zoz0zcfjyvdbHRhaagkFbw==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p5:p.TypeDefinitionTargets>
+							<p5:TypeDefinitionTarget TargetName="Simple\ Tester:Test\ Status\.gtype:ControlDefinition" />
+						</p5:p.TypeDefinitionTargets>
+						<EnumSelectorInfo DisplayValue="[string]Disabled" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Scheduled" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Running" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Passed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Failed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="628" xmlns="http://www.ni.com/PlatformFramework" />
+					</EnumSelector>
+					<p5:Label Id="625" LabelOwner="[UIModel]624" Left="[float]383" Text="[string]Status" Top="[float]-16" Visible="[bool]False" />
+					<p5:Label Height="[float]16" Id="26" IsVisualChild="[bool]False" LabelOwner="[UIModel]19" Left="[float]6" Text="[string]Cluster" Top="[float]198" Width="[float]37" />
+				</Cluster>
+			</ArrayViewer>
+			<Label Foreground="[SMColor]#ff2b3033" Id="27" LabelOwner="[UIModel]18" Left="[float]100" Text="[string]Tests" Top="[float]80" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="@e6dd4dcfe5494104a3ec740e199f2432" Id="17" Name="Tests" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="@e6dd4dcfe5494104a3ec740e199f2432" Id="28" Name="Tests Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Simple\ Tester:TestDisplay\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="String" Id="67" Name="Name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="@0c6458c61a054c65917ec44161d7db1f" Id="72" Name="Status" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Simple\ Tester:Test\ Status\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="d6dcebecce8042caabe13836507cb8b3">
+			<Attributed AttributedType="@60dc9275c56945af96321877cdf951d6">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Simple\ Tester" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e6dd4dcfe5494104a3ec740e199f2432">
+			<VariableArray DereferenceType="@d6dcebecce8042caabe13836507cb8b3" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0c6458c61a054c65917ec44161d7db1f">
+			<Attributed AttributedType="@edfdc5822f654cf3bfc9ff03e013f636">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Simple\ Tester" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="60dc9275c56945af96321877cdf951d6">
+			<Typedef TypedefName="TestDisplay.gtype" UnderlyingType="@e9f4ebb8b3714799a804d540c82df95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="edfdc5822f654cf3bfc9ff03e013f636">
+			<Typedef TypedefName="Test Status.gtype" UnderlyingType="@8c8565f294994dcc9aad8440ce7b8844" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e9f4ebb8b3714799a804d540c82df95a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@0c6458c61a054c65917ec44161d7db1f" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Duration" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8c8565f294994dcc9aad8440ce7b8844">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Disabled" />
+					<EnumerationMember Value="1" Name="Scheduled" />
+					<EnumerationMember Value="2" Name="Running" />
+					<EnumerationMember Value="3" Name="Passed" />
+					<EnumerationMember Value="4" Name="Failed" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
