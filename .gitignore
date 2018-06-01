@@ -1,0 +1,7 @@
+# caches
+.cache/
+*.lvcompile
+*.lvindexcache
+
+# Distribution / packaging/ builds
+Builds/
